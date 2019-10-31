@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'parallel', '~> 1.0'
   s.add_dependency 'railties', '>= 4'
-  s.add_dependency 'sprockets', '~> 3.0'
+  s.add_dependency 'sprockets', '~> 4.0'
 
   s.require_path = 'lib'
   s.files = Dir['{lib,spec}/**/*', 'Gemfile', 'README.md', 'Rakefile', 'turbo-sprockets-rails4.gemspec']
